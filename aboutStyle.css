@@ -1,0 +1,24 @@
+.body{
+    display: flex;
+}
+a{
+  color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.about-section
+{
+    color:white;
+    font-size: 200%;
+    margin-top: 15%;
+}
+#co-founder {
+    width: 200px; /* Adjust the width as desired */
+    height: auto; /* Maintain aspect ratio */
+}
+#founder
+{
+    width: 150px; /* Adjust the width as desired */
+    height: auto;
+}

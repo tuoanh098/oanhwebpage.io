@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MSMW</title>
+  <!-- <audio autoplay>
+    <source src="audio/gee.mp3" type="audio/mp3">
+  </audio> -->
+  <link rel="stylesheet" href="style.css">
+  <script type = "text/javascript" src="effect.js"></script>
+</head>
+<body background="img/background_1.jpg" style="background-repeat: no-repeat; background-size: cover;">
+  <div class="flag" onclick="scrollDown()">
+    <div class="flag-overlay">
+      <img src="img/down.png" class="down">
+      <img src="img/trumpet.png" class="trumpet">
+    </div>
+    <img src="img/flag.png" class="flag-img">
+    <div class="flag-box">      
+      <a href="home.html">Home</a>
+      <a href="event.html">Event</a>
+      <a href="about.html">About</a>
+      <a href="info.html">Support</a>
+    </div>
+    </div>
+  <div class="icon">
+    <img src="img/haed.png" id="ic-us">
+    <img src="img/sword.png" id="ic-ps" >
+  </div>
+  <div class="container">
+    <h1 style="color: rgb(0, 0, 0);">Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password" placeholder="Enter your password">
+    </form>
+    <div>
+      <button class="fantasy-button" onclick="redirectToPrivatePage()">Login</button>
+    </div>
+  </div>
+
+</body>
+</html>

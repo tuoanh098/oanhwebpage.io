@@ -1,0 +1,30 @@
+.body{
+    background-repeat: no-repeat; background-size: cover;
+}
+.event-link{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.row .col img {
+    margin-bottom: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.event-box
+{
+    background-color: #ebc5aa;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    top: 10%;
+    width: 21%;
+    margin: 150px 0 0 ;
+    padding: 350px;
+    border-radius: 15px;
+    border: 10px solid rgb(138, 114, 91);
+}
