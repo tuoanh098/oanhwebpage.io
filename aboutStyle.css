@@ -9,6 +9,7 @@ a:hover{
 }
 .about-section
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
     font-size: 200%;
     margin-top: 15%;
@@ -21,4 +22,8 @@ a:hover{
 {
     width: 150px; /* Adjust the width as desired */
     height: auto;
+}
+.al:hover
+{
+    color: blue;
 }
